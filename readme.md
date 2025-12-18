@@ -7,14 +7,33 @@ this project is a school/university management system that let you manage studen
 
 - structure:
     - class:
-      - students:
+      - #### students:
         propertis of this class are name , family ,  ID , and courses
-      - techers:
+      - #### techers:
          propertis of this class are name , family , grade , ID , and courses
-      - courses:
+      - #### courses:
         propertis of this class are ID , name , units , and scores
-      - classroom:
+      - #### classroom:
         propertis of this class are ID , name , students , teacher , and  course  
+
+---
+- instruction
+  - first when you run the code you will see this menu:
+  1. students
+  2. teachers
+  3. courses
+  4. classrooms
+  5. save
+  6. exit
+  - than if you chose number each number exept 5 or 6 you will see sth like this:
+  1. add student
+  2. edit student
+  3. delete student
+  4. view students
+  5. select student
+  0. back 
+  - and also you can save (number 5) and finish the program (number 6) 
+    
 
 ---
 ### features:
